@@ -1,5 +1,6 @@
 # albergreen-htmlpractice
 (DATA EM QUE FOI FEITO: 2022 s1)
+
 Projeto simples para praticar html e css puros.
 * nome, produto e endereço fictícios
 
