@@ -1,0 +1,83 @@
+#logo{
+        max-width:100px;
+        width: auto;
+        height: auto;
+}
+
+#MainNavbar{
+    margin-right: 100px;
+}
+
+#MainNavbar-home{
+    height: 46px;
+}
+
+.page_title{
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Gruppo', cursive;
+    color: #F1F0EB; 
+}
+
+.white-ish-text{
+    font-family: 'Poppins', sans-serif;
+    color: #F1F0EB; 
+}
+
+#main-content{
+    max-width: 725px;
+    width: 100%;
+    padding: 0;
+}
+
+.slide_image{
+    max-width: 750px;
+    max-height: 350px;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.menu-image{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 10px;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.menu-title{
+    width: 137px;
+    font-family: 'Poppins', sans-serif;
+    color: #F1F0EB; 
+    font-size: 12pt;
+}
+
+.menu-desc{
+    font-family: 'Poppins', sans-serif;
+    color: #F1F0EB; 
+    font-size: 11pt;
+}
+
+#cardapio{
+    max-width: 760px;
+    width: 100%;
+}
+
+#contact-infos{
+    max-width: 730px;
+    width: 100%;
+}
+
+#contact-infos p{
+    color: #F1F0EB; 
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+}
+
+.social-image{
+    width: 25px;
+    height: 25px;
+}

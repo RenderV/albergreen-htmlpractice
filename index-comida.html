@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="imgs/fav.ico">
+    <title> Pratos | Albergreen - Restaurante Vegano</title>
+  </head>
+  <body class="bg-dark">
+    <div class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index-home.html" style="margin: 0;">
+            <img src="imgs/LOGO.png" id="logo" alt="Logo da Albergren">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MainNavbar" aria-controls="MainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="MainNavbar" style="height: 46px;">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index-home.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index-comida.html">Comidas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index-drinks.html">Drinks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index-contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section> 
+        <h1 class="page_title">Pratos</h1>
+        <div class="container-fluid" id="main-content">
+          <!--Carrossel-->
+          <div id="highlights-drinks" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators d-none">
+                <button type="button" data-bs-target="#highlights-drinks" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                </button>
+                <button type="button" data-bs-target="#highlights-drinks" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#highlights-drinks" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                      <img src="imgs/Comidas/slide-1.png" class="d-block slide_image" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                      <img src="imgs/Comidas/slide-2.png" class="d-block slide_image" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                      <img src="imgs/Comidas/slide-3.png" class="d-block slide_image" alt="...">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#highlights-drinks" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#highlights-drinks" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+            </div>
+    </section>
+    <div class="container" id="cardapio">
+        <!--Menu-->
+        <h1 class="page_title pt-3 pb-0">Cardápio</h1>
+        <div class="d-flex flex-wrap">
+            <div class="d-flex flex-nowrap align-content-end">
+                <div class="menu-item py-2 px-1">
+                    <div class="teste">
+                        <img src="imgs/Comidas/menu-1.png" class="menu-image" alt="...">
+                    </div>
+                </div>
+                <div>
+                    <p class="menu-title pt-1 px-1 my-0">Filé de Abóbora</p>
+                    <p class="menu-desc pt-1 px-1 my-0">>Arroz</p>
+                    <p class="menu-desc pt-1 px-1 my-0">>300 g de filé</p>
+                    <p class="menu-desc pt-1 px-1 my-0">>R$ 25,00</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-nowrap align-content-end">
+                <div class="menu-item py-2 px-1">
+                    <div class="teste">
+                        <img src="imgs/Comidas/menu-2.png" class="menu-image" alt="...">
+                    </div>
+                </div>
+                <div>
+                    <p class="menu-title pt-1 px-1 my-0">Espetinho Vegano</p>
+                    <p class="menu-desc pt-1 px-1 my-0">> 150 g</p>
+                    <p class="menu-desc pt-1 px-1 my-0">> 10 R$</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-nowrap align-content-end">
+                <div class="menu-item py-2 px-1">
+                    <div class="teste">
+                        <img src="imgs/Comidas/menu-3.png" class="menu-image" alt="...">
+                    </div>
+                </div>
+                <div>
+                    <p class="menu-title pt-1 px-1 my-0">Tacos Verdes</p>
+                    <p class="menu-desc pt-1 px-1 my-0">> 400 g </p>
+                    <p class="menu-desc pt-1 px-1 my-0">> 20 R$</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-nowrap align-content-end">
+                <div class="menu-item py-2 px-1">
+                    <div class="teste">
+                        <img src="imgs/Comidas/menu-4.png" class="menu-image" alt="...">
+                    </div>
+                </div>
+                <div>
+                    <p class="menu-title pt-1 px-1 my-0">Smash Green</p>
+                    <p class="menu-desc pt-1 px-1 my-0">> 400 g</p>
+                    <p class="menu-desc pt-1 px-1 my-0">> <s>18 R$</s> 14R$ </p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-nowrap align-content-end">
+                <div class="menu-item py-2 px-1">
+                    <div class="teste">
+                        <img src="imgs/Comidas/menu-5.png" class="menu-image" alt="...">
+                    </div>
+                </div>
+                <div>
+                    <p class="menu-title pt-1 px-1 my-0">Torrada com creme</p>
+                    <p class="menu-desc pt-1 px-1 my-0"></p>
+                    <p class="menu-desc pt-1 px-1 my-0">> 4 unidades</p>
+                    <p class="menu-desc pt-1 px-1 my-0">> 5 R$</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-nowrap align-content-end">
+                <div class="menu-item py-2 px-1">
+                  <img src="imgs/Comidas/menu-6.png" class="menu-image" alt="...">
+                </div>
+                <div>
+                    <p class="menu-title pt-1 px-1 my-0">Batata Frita</p>
+                    <p class="menu-desc pt-1 px-1 my-0">> Porção 500 g</p>
+                    <p class="menu-desc pt-1 px-1 my-0">> 25 R$</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+    <footer class="bg-dark text-center text-white" style="padding-top: 200px;">
+        <div>
+
+          <!--Social Media-->
+          <section class="mb-4">
+            <a class="btn p-0" href="https://www.facebook.com/" role="button" target="blank">
+              <img src="imgs/social-media/face.png" class="social-image">
+            </a>
+            <a class="btn p-0" href="https://www.instagram.com/" role="button" target="blank">
+              <img src="imgs/social-media/instagram.png" class="social-image">
+            </a>
+            <a class="btn p-0" href="https://www.twitt.com/" role="button" target="blank">
+              <img src="imgs/social-media/twitt.png" class="social-image">
+            </a>
+            <a class="btn p-0" href="https://www.Whatsapp.com/" role="button" target="blank">
+              <img src="imgs/social-media/Whatsapp.png" class="social-image">
+            </a>
+            <a class="btn p-0" href="https://www.youtube.com/" role="button" target="blank">
+              <img src="imgs/social-media/youtube.png" class="social-image">
+            </a>
+          </section>
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Copyright © 2002-2022 Albergreen.com.br LTDA
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" defer integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
